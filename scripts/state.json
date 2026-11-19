@@ -1,0 +1,74 @@
+{
+ "connections": {
+  "Northpeak_Commerce": {
+   "id": "1WMgL000000MPhJWAW",
+   "name": "Northpeak_Commerce_35cc5ef9_2d47_48a4_bf56_0ceb62fcf78e",
+   "tenant": "gyyd9zlch1zd1nldmy3g0nzxmy.c360a.salesforce.com"
+  },
+  "Northpeak_Loyalty": {
+   "id": "1WMgL000000MPivWAG",
+   "name": "Northpeak_Loyalty_dcf2f0fa_aae1_4243_a42c_d5d9fd9fbbf2",
+   "tenant": "gyyd9zlch1zd1nldmy3g0nzxmy.c360a.salesforce.com"
+  }
+ },
+ "streams": {
+  "NP_Ecom_Customers": {
+   "stream": "Northpeak_Commerce_NpEcomCustomer_294678CA",
+   "dlo": "Northpeak_Commerce_NpEcomCustom_294678CA__dll",
+   "status": "PROCESSING"
+  },
+  "NP_Loyalty_Members": {
+   "stream": "Northpeak_Loyalty_NpLoyaltyMember_AC9D79C5",
+   "dlo": "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5__dll",
+   "status": "PROCESSING"
+  },
+  "NP_Orders": {
+   "stream": "Northpeak_Commerce_NpOrder_71B40B4D",
+   "dlo": "Northpeak_Commerce_NpOrder_71B40B4D__dll",
+   "status": "PROCESSING"
+  },
+  "NP_Web_Events": {
+   "stream": "Northpeak_Commerce_NpWebEvent_DA82B50C",
+   "dlo": "Northpeak_Commerce_NpWebEvent_DA82B50C__dll",
+   "status": "PROCESSING"
+  }
+ },
+ "dmos": {
+  "NP_Loyalty_Member": "NP_Loyalty_Member__dlm",
+  "NP_Order": "NP_Order__dlm",
+  "NP_Web_Event": "NP_Web_Event__dlm"
+ },
+ "maps": {
+  "Northpeak_Commerce_NpEcomCustom_294678CA__dll->ssot__Individual__dlm": "Northpeak_Commerce_NpEcomCustom_294678CA_map_Individual_1795087688359",
+  "Northpeak_Commerce_NpEcomCustom_294678CA__dll->ssot__ContactPointEmail__dlm": "Northpeak_Commerce_NpEcomCustom_294678CA_map_ContactPointEmail_1795087701090",
+  "Northpeak_Commerce_NpEcomCustom_294678CA__dll->ssot__ContactPointPhone__dlm": "Northpeak_Commerce_NpEcomCustom_294678CA_map_ContactPointPhone_1795087711553",
+  "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5__dll->ssot__Individual__dlm": "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5_map_Individual_1795087722732",
+  "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5__dll->ssot__ContactPointEmail__dlm": "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5_map_ContactPointEmail_1795087733314",
+  "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5__dll->ssot__ContactPointPhone__dlm": "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5_map_ContactPointPhone_1795087745645",
+  "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5__dll->NP_Loyalty_Member__dlm": "Northpeak_Loyalty_NpLoyaltyMemb_AC9D79C5_map_NP_Loyalty_Member_1795087756089",
+  "Northpeak_Commerce_NpOrder_71B40B4D__dll->NP_Order__dlm": "Northpeak_Commerce_NpOrder_71B40B4D_map_NP_Order_1795087764265",
+  "Northpeak_Commerce_NpWebEvent_DA82B50C__dll->NP_Web_Event__dlm": "Northpeak_Commerce_NpWebEvent_DA82B50C_map_NP_Web_Event_1795087772066"
+ },
+ "ir_id": "1irgL000000SnSeQAK",
+ "ir_rule2": "fuzzyFirst+lastExact+E164norm",
+ "ir_stats": {
+  "people": 200,
+  "fully_unified": 198,
+  "split": 2,
+  "missing": 0,
+  "by_mode": {
+   "email": [
+    56,
+    0
+   ],
+   "name+phone": [
+    38,
+    0
+   ],
+   "n/a": [
+    35,
+    0
+   ]
+  }
+ }
+}

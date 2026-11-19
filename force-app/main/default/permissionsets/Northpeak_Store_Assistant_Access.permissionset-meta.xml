@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Northpeak Store Assistant Access</label>
+    <description>Lets Northpeak store staff use the Northpeak Store Assistant agent and its Customer 360 actions.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <agentAccesses>
+        <agentName>Northpeak_Store_Assistant</agentName>
+        <enabled>true</enabled>
+    </agentAccesses>
+    <classAccesses><apexClass>NP_CustomerProfileService</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>NP_GetCustomerProfile</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>NP_GetRecommendations</apexClass><enabled>true</enabled></classAccesses>
+    <objectPermissions>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>Product2</object><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</PermissionSet>

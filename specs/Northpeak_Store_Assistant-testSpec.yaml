@@ -1,0 +1,36 @@
+name: Northpeak Store Assistant Tests
+description: End-to-end tests for the Northpeak store staff Customer 360 agent
+subjectType: AGENT
+subjectName: Northpeak_Store_Assistant
+testCases:
+  - utterance: "Who is owen.underwood@example.com?"
+    expectedTopic: customer_360
+    expectedActions:
+      - get_customer_profile
+    expectedOutcome: "Agent identifies Owen Underwood as a Summit tier, Gold value customer unified from 3 sources and flags him as high-value at risk."
+  - utterance: "Look up Summit Club member LOY-50073"
+    expectedTopic: customer_360
+    expectedActions:
+      - get_customer_profile
+    expectedOutcome: "Agent returns the profile of Jessica McAllister, a Summit tier member, and flags her as high-value at risk."
+  - utterance: "The customer's phone number is (303) 555-6168, anything I should know?"
+    expectedTopic: customer_360
+    expectedActions:
+      - get_customer_profile
+    expectedOutcome: "Agent identifies Owen Underwood and highlights that he is a high-value customer at risk who has not purchased in months."
+  - utterance: "Find Alexandra Olsen"
+    expectedTopic: customer_360
+    expectedActions:
+      - get_customer_profile
+    expectedOutcome: "Agent explains that two customers named Alexandra Olsen match and asks which one is in the store."
+  - utterance: "Who is nobody@nowhere.com?"
+    expectedTopic: customer_360
+    expectedActions:
+      - get_customer_profile
+    expectedOutcome: "Agent says no Northpeak customer was found for that email."
+  - utterance: "Who is jessica.mcallister@example.com and what should I recommend to her?"
+    expectedTopic: recommendations
+    expectedActions:
+      - get_customer_profile
+      - get_recommendations
+    expectedOutcome: "Agent summarises Jessica McAllister as a high-value at-risk Summit member and recommends 3 Northpeak products with prices, a Summit perk and the COMEBACK20 win-back offer."

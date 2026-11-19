@@ -1,0 +1,41 @@
+Name,ProductCode,Family,IsActive,Description
+Ridgeline 2P Backpacking Tent,NP-001,Tents,true,Northpeak Outfitters catalog
+Basecamp 4P Family Tent,NP-002,Tents,true,Northpeak Outfitters catalog
+Alpine Ultralight 1P Tent,NP-003,Tents,true,Northpeak Outfitters catalog
+Summit Expedition 3P Tent,NP-004,Tents,true,Northpeak Outfitters catalog
+Trailhead Footprint,NP-005,Tents,true,Northpeak Outfitters catalog
+Glacier -7C Down Sleeping Bag,NP-006,Sleeping Bags,true,Northpeak Outfitters catalog
+Meadow 4C Synthetic Bag,NP-007,Sleeping Bags,true,Northpeak Outfitters catalog
+Polar Expedition -18C Bag,NP-008,Sleeping Bags,true,Northpeak Outfitters catalog
+Insulated Sleeping Pad R5,NP-009,Sleeping Bags,true,Northpeak Outfitters catalog
+Silk Sleeping Bag Liner,NP-010,Sleeping Bags,true,Northpeak Outfitters catalog
+Traverse 65L Trekking Pack,NP-011,Backpacks,true,Northpeak Outfitters catalog
+Daybreak 28L Daypack,NP-012,Backpacks,true,Northpeak Outfitters catalog
+Summit Push 40L Alpine Pack,NP-013,Backpacks,true,Northpeak Outfitters catalog
+Kids Explorer 18L Pack,NP-014,Backpacks,true,Northpeak Outfitters catalog
+Hydration Bladder 3L,NP-015,Backpacks,true,Northpeak Outfitters catalog
+Cascade Mid GTX Hiking Boot,NP-016,Footwear,true,Northpeak Outfitters catalog
+Talus Approach Shoe,NP-017,Footwear,true,Northpeak Outfitters catalog
+Ridgewalker Leather Boot,NP-018,Footwear,true,Northpeak Outfitters catalog
+Camp Recovery Slide,NP-019,Footwear,true,Northpeak Outfitters catalog
+Merino Hiking Socks 3-Pack,NP-020,Footwear,true,Northpeak Outfitters catalog
+Stormshell 3L Rain Jacket,NP-021,Jackets,true,Northpeak Outfitters catalog
+Firecrest Down Parka,NP-022,Jackets,true,Northpeak Outfitters catalog
+Switchback Fleece Hoodie,NP-023,Jackets,true,Northpeak Outfitters catalog
+Alpine Softshell Jacket,NP-024,Jackets,true,Northpeak Outfitters catalog
+Packable Wind Shell,NP-025,Jackets,true,Northpeak Outfitters catalog
+Granite Climbing Harness,NP-026,Climbing,true,Northpeak Outfitters catalog
+Crag Dynamic Rope 60m,NP-027,Climbing,true,Northpeak Outfitters catalog
+Vertex Climbing Helmet,NP-028,Climbing,true,Northpeak Outfitters catalog
+Edge Climbing Shoes,NP-029,Climbing,true,Northpeak Outfitters catalog
+Quickdraw Set of 6,NP-030,Climbing,true,Northpeak Outfitters catalog
+Blaze Canister Stove,NP-031,Camp Kitchen,true,Northpeak Outfitters catalog
+Titanium Cook Set,NP-032,Camp Kitchen,true,Northpeak Outfitters catalog
+Trail Coffee Press,NP-033,Camp Kitchen,true,Northpeak Outfitters catalog
+Camp Kitchen Table,NP-034,Camp Kitchen,true,Northpeak Outfitters catalog
+Insulated Food Jar,NP-035,Camp Kitchen,true,Northpeak Outfitters catalog
+Skyline Trail Running Shoe,NP-036,Trail Running,true,Northpeak Outfitters catalog
+Ultra Vest 12L,NP-037,Trail Running,true,Northpeak Outfitters catalog
+Trail Running Shorts,NP-038,Trail Running,true,Northpeak Outfitters catalog
+Headlamp 400 Lumens,NP-039,Trail Running,true,Northpeak Outfitters catalog
+Running Poles Carbon,NP-040,Trail Running,true,Northpeak Outfitters catalog

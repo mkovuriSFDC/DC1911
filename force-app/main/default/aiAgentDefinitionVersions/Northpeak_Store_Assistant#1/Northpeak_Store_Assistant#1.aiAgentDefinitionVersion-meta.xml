@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AiAgentDefinitionVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
+    <billingMode>ActionBased</billingMode>
+    <citationsEnabled>false</citationsEnabled>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The agent instructions</description>
+        <developerName>AgentScriptInternal_agent_instructions</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Agent Instructions</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Boolean</dataType>
+        <description>Runtime condition evaluation for if statements</description>
+        <developerName>AgentScriptInternal_condition_1</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Runtime Condition 1</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The next topic to be visited</description>
+        <developerName>AgentScriptInternal_next_topic</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Next Topic</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Customer 360 summary returned by the profile lookup</description>
+        <developerName>profile_summary</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Profile Summary</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Recommendations returned for the current customer</description>
+        <developerName>recs</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Recs</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Unified customer id of the customer currently being served</description>
+        <developerName>unified_id</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Unified Id</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <copilotPrimaryLanguage>en_US</copilotPrimaryLanguage>
+    <genAiPlannerName>Northpeak_Store_Assistant_v1</genAiPlannerName>
+    <isScriptCompatibleAgent>true</isScriptCompatibleAgent>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
+    <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
+    <planner>
+        <fullName>Northpeak_Store_Assistant_v1</fullName>
+        <agentGraphRef>20ZgL00000C088M</agentGraphRef>
+        <description>Helps Northpeak Outfitters store staff identify customers from their unified Customer 360 profile and recommend gear.</description>
+        <localTopicLinks>
+            <genAiPluginName>agent_router</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>customer_360</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>off_topic</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>recommendations</genAiPluginName>
+        </localTopicLinks>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Welcome store staff and route their request</description>
+            <genAiPluginInstructions>
+                <description>You are the Northpeak Store Assistant, a friendly retail helper for Northpeak Outfitters store staff. Be concise and use short bullet points. Only use facts returned by your actions and never invent customer data, prices or products.</description>
+                <developerName>instruction0_179gL00000366Ve</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179gL00000366Ve</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localDeveloperName>agent_router</localDeveloperName>
+            <masterLabel>Agent Router</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Identify a Northpeak customer by email, phone, Summit Club number, webshop id or name and summarise who they are</description>
+            <genAiPluginInstructions>
+                <description>You are the Northpeak Store Assistant, a friendly retail helper for Northpeak Outfitters store staff. Be concise and use short bullet points. Only use facts returned by your actions and never invent customer data, prices or products.</description>
+                <developerName>instruction0_179gL00000366Vd</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179gL00000366Vd</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localActionLinks>
+                <functionName>get_customer_profile</functionName>
+            </localActionLinks>
+            <localActions>
+                <description>Look up a unified Northpeak customer profile by email, phone, Summit Club number (LOY-), webshop id (ECOM-) or full name</description>
+                <invocationTarget>NP_GetCustomerProfile</invocationTarget>
+                <invocationTargetType>apex</invocationTargetType>
+                <isConfirmationRequired>false</isConfirmationRequired>
+                <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+                <localDeveloperName>get_customer_profile</localDeveloperName>
+                <masterLabel>Get Customer Profile</masterLabel>
+            </localActions>
+            <localDeveloperName>customer_360</localDeveloperName>
+            <masterLabel>Customer 360</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Redirect conversation when the request is not about Northpeak customers or products</description>
+            <genAiPluginInstructions>
+                <description>You are the Northpeak Store Assistant, a friendly retail helper for Northpeak Outfitters store staff. Be concise and use short bullet points. Only use facts returned by your actions and never invent customer data, prices or products.</description>
+                <developerName>instruction0_179gL00000366Vg</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179gL00000366Vg</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localDeveloperName>off_topic</localDeveloperName>
+            <masterLabel>Off Topic</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Recommend Northpeak products, perks and talking points for the customer that has been identified</description>
+            <genAiPluginInstructions>
+                <description>You are the Northpeak Store Assistant, a friendly retail helper for Northpeak Outfitters store staff. Be concise and use short bullet points. Only use facts returned by your actions and never invent customer data, prices or products.</description>
+                <developerName>instruction0_179gL00000366Vf</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179gL00000366Vf</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localActionLinks>
+                <functionName>get_recommendations</functionName>
+            </localActionLinks>
+            <localActions>
+                <description>Get product recommendations, loyalty perks and win-back talking points for a unified customer id</description>
+                <invocationTarget>NP_GetRecommendations</invocationTarget>
+                <invocationTargetType>apex</invocationTargetType>
+                <isConfirmationRequired>false</isConfirmationRequired>
+                <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+                <localDeveloperName>get_recommendations</localDeveloperName>
+                <masterLabel>Get Recommendations</masterLabel>
+            </localActions>
+            <localDeveloperName>recommendations</localDeveloperName>
+            <masterLabel>Recommendations</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <masterLabel>Northpeak Store Assistant</masterLabel>
+        <plannerType>Atlas__ConcurrentMultiAgentOrchestration</plannerType>
+    </planner>
+    <smallTalkEnabled>false</smallTalkEnabled>
+    <staticPromptsEnabled>false</staticPromptsEnabled>
+    <status>Inactive</status>
+    <stopRecPrompts>false</stopRecPrompts>
+    <surfacesEnabled>false</surfacesEnabled>
+    <toneType>Casual</toneType>
+    <version>1</version>
+    <welcomeMessage>Hi! Give me a customer&apos;s email, phone number, Summit Club number or full name and I&apos;ll tell you who they are and what to recommend.</welcomeMessage>
+</AiAgentDefinitionVersion>

@@ -1,0 +1,68 @@
+[
+ {
+  "utterance": "Who is owen.underwood@example.com?",
+  "topic": "customer_360",
+  "actions": "['get_customer_profile']",
+  "response": "ALERT: HIGH-VALUE AT RISK \u2013 Owen Underwood is a big past spender who hasn't purchased in 6 months. Prioritize a warm welcome-back.\n\n- Location: Colorado Springs, CO (home store NP-S04)\n- Contact: owen.underwood@example.com | +13035556168\n- Summit Club: Summit tier, 13,812 points\n- Lifetime value: Gold ($1,811 over 5 orders)\n- Last purchase: 2026-03-06 ($477 on Tents, in store NP-S07)\n- Other recent orders: Backpacks (2026-02-04, NP-S04), Climbing (2025-09-27, NP-S32)\n- Web engagement: None in last 30 days\n\nWould you like product recommendations for Owen?",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "PASS",
+   "output_validation": "PASS"
+  }
+ },
+ {
+  "utterance": "Look up Summit Club member LOY-50073",
+  "topic": "customer_360",
+  "actions": "['get_customer_profile']",
+  "response": "ALERT: HIGH-VALUE AT RISK \u2014 Jessica McAllister is a big past spender with no purchase in 6 months. Prioritize a warm welcome-back.\n\n\u2022 Location: Salem, OR (home store NP-S25)\n\u2022 Contact: jessica.mcallister@example.com | +19715554249\n\u2022 Summit Club: Summit tier, 10,605 points\n\u2022 Lifetime value: Gold ($1,998 over 5 orders)\n\u2022 Last purchase: 2026-03-10 ($602 Tents, in store NP-S35)\n\u2022 Web engagement: None in past 30 days\n\u2022 Most browsed categories: Not available\n\nWould you like product recommendations for Jessica?",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "PASS",
+   "output_validation": "PASS"
+  }
+ },
+ {
+  "utterance": "The customer's phone number is (303) 555-6168, anything I should know?",
+  "topic": "customer_360",
+  "actions": "['get_customer_profile']",
+  "response": "ALERT: HIGH-VALUE AT RISK \u2013 Owen Underwood is a big past spender but hasn't purchased in 6+ months. Prioritize a warm welcome-back.\n\nKey details:\n- Home store: NP-S04 (Colorado Springs, CO)\n- Summit Club: Summit tier, 13,812 points\n- Lifetime value: Gold ($1,811 over 5 orders)\n- Last purchase: 2026-03-06 ($477, Tents, in NP-S07)\n- Recent orders: Backpacks, Climbing gear\n- Web engagement: None in last 30 days\n\nWould you like product recommendations for Owen?",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "PASS",
+   "output_validation": "PASS"
+  }
+ },
+ {
+  "utterance": "Find Alexandra Olsen",
+  "topic": "customer_360",
+  "actions": "['get_customer_profile']",
+  "response": "There are two customers named Alexandra Olsen:\n\n- Alexandra Olsen | alexandra.olsen@example.org | +13075554257 | Jackson, WY\n- Alexandra Olsen | alexandra.olsen2@example.org | +12065558110\n\nWhich one is in the store? Let me know their email or phone number to continue.",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "PASS",
+   "output_validation": "PASS"
+  }
+ },
+ {
+  "utterance": "Who is nobody@nowhere.com?",
+  "topic": "customer_360",
+  "actions": "[]",
+  "response": "No customer found for nobody@nowhere.com. Please try another email, phone number, or Summit Club number. Would you like to check someone else?",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "FAILURE",
+   "output_validation": "PASS"
+  }
+ },
+ {
+  "utterance": "Who is jessica.mcallister@example.com and what should I recommend to her?",
+  "topic": "recommendations",
+  "actions": "['get_customer_profile', 'get_recommendations']",
+  "response": "Jessica McAllister is a Summit tier member from Salem, OR. She is a high-value customer at risk, with no purchase in 6 months.\n\nRecommend these products:\n- Polar Expedition -18C Bag ($599): pairs well with her past tents purchase.\n- Camp Kitchen Table ($149): complements her previous backpack order.\n- Firecrest Down Parka ($459): great for her trail running interests.\n\nPerk: Summit members get free tent pitching/boot fitting and 2x points this month.\nWin-back: Offer her a 20% welcome-back voucher (code COMEBACK20) on today's purchase.\n\nWould you like talking points or more details on any product?",
+  "results": {
+   "topic_assertion": "PASS",
+   "actions_assertion": "PASS",
+   "output_validation": "PASS"
+  }
+ }
+]

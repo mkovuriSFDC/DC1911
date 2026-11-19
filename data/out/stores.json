@@ -1,0 +1,202 @@
+[
+ {
+  "StoreId": "NP-S01",
+  "City": "Denver",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S02",
+  "City": "Boulder",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S03",
+  "City": "Fort Collins",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S04",
+  "City": "Colorado Springs",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S05",
+  "City": "Golden",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S06",
+  "City": "Breckenridge",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S07",
+  "City": "Durango",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S08",
+  "City": "Aspen",
+  "State": "CO"
+ },
+ {
+  "StoreId": "NP-S09",
+  "City": "Salt Lake City",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S10",
+  "City": "Park City",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S11",
+  "City": "Ogden",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S12",
+  "City": "Provo",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S13",
+  "City": "Moab",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S14",
+  "City": "St. George",
+  "State": "UT"
+ },
+ {
+  "StoreId": "NP-S15",
+  "City": "Seattle",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S16",
+  "City": "Bellevue",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S17",
+  "City": "Tacoma",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S18",
+  "City": "Spokane",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S19",
+  "City": "Bellingham",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S20",
+  "City": "Olympia",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S21",
+  "City": "Leavenworth",
+  "State": "WA"
+ },
+ {
+  "StoreId": "NP-S22",
+  "City": "Portland",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S23",
+  "City": "Bend",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S24",
+  "City": "Eugene",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S25",
+  "City": "Salem",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S26",
+  "City": "Hood River",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S27",
+  "City": "Ashland",
+  "State": "OR"
+ },
+ {
+  "StoreId": "NP-S28",
+  "City": "Boise",
+  "State": "ID"
+ },
+ {
+  "StoreId": "NP-S29",
+  "City": "Sun Valley",
+  "State": "ID"
+ },
+ {
+  "StoreId": "NP-S30",
+  "City": "Missoula",
+  "State": "MT"
+ },
+ {
+  "StoreId": "NP-S31",
+  "City": "Bozeman",
+  "State": "MT"
+ },
+ {
+  "StoreId": "NP-S32",
+  "City": "Whitefish",
+  "State": "MT"
+ },
+ {
+  "StoreId": "NP-S33",
+  "City": "Jackson",
+  "State": "WY"
+ },
+ {
+  "StoreId": "NP-S34",
+  "City": "Flagstaff",
+  "State": "AZ"
+ },
+ {
+  "StoreId": "NP-S35",
+  "City": "Sedona",
+  "State": "AZ"
+ },
+ {
+  "StoreId": "NP-S36",
+  "City": "Santa Fe",
+  "State": "NM"
+ },
+ {
+  "StoreId": "NP-S37",
+  "City": "Taos",
+  "State": "NM"
+ },
+ {
+  "StoreId": "NP-S38",
+  "City": "Reno",
+  "State": "NV"
+ },
+ {
+  "StoreId": "NP-S39",
+  "City": "Truckee",
+  "State": "CA"
+ },
+ {
+  "StoreId": "NP-S40",
+  "City": "Mammoth Lakes",
+  "State": "CA"
+ }
+]

@@ -1,0 +1,201 @@
+PersonKey,First,Last,Email,Phone,Sources,Persona,EcomId,LoyId,LoyMatch,LoyFirst,Spend,Tier,NearMissOf,Favs
+P001,Harper,Hughes,harper.hughes@example.org,+17205555012,E,Casual,ECOM-10001,,,,498.43,,,Backpacks|Sleeping Bags
+P002,Anthony,Iverson,anthony.iverson@example.org,+19705559935,L,StoreOnly,,LOY-50001,email,Anthony,0,Base Camp,,Sleeping Bags|Trail Running
+P003,Jennifer,Novak,jennifer.novak@example.com,+12085552535,CL,StoreOnly,,LOY-50002,email,Jennifer,0,Base Camp,,Trail Running|Climbing
+P004,Alexandra,Olsen,alexandra.olsen@example.org,+13075554257,CL,StoreOnly,,LOY-50003,email,Alexandra,0,Base Camp,,Climbing|Sleeping Bags
+P005,Caleb,Sullivan,caleb.sullivan@example.com,+19285558359,C,StoreOnly,,,,,0,,,Climbing|Jackets
+P006,Lucas,Ramirez,lucas.ramirez@example.com,+19705557924,L,StoreOnly,,LOY-50004,name+phone,Lucas,0,Base Camp,,Climbing|Camp Kitchen
+P007,Stephanie,Ramirez,stephanie.ramirez@example.com,+14355552674,E,HighValueAtRisk,ECOM-10002,,,,1910.98,,,Trail Running|Jackets
+P008,Jennifer,Zimmerman,jennifer.zimmerman@example.com,+17205555333,C,StoreOnly,,,,,0,,,Trail Running|Camp Kitchen
+P009,Ravi,Carter,ravi.carter@example.org,+14065557201,EL,Browser,ECOM-10003,LOY-50005,name+phone,Ravi,96.09,Base Camp,,Trail Running|Jackets
+P010,Jennifer,Lindqvist,jennifer.lindqvist@example.org,+15095556925,CEL,Browser,ECOM-10004,LOY-50006,email,Jennifer,0,Trailblazer,,Trail Running|Footwear
+P011,Sofia,Moreno,sofia.moreno@example.com,+19705554733,CEL,Browser,ECOM-10005,LOY-50007,email,Sofia,777.84,Trailblazer,,Climbing|Tents
+P012,Mateo,Sorensen,mateo.sorensen@example.com,+13035557227,CL,StoreOnly,,LOY-50008,name+phone,Mateo,0,Base Camp,,Climbing|Backpacks
+P013,Patricia,Fletcher,patricia.fletcher@example.com,+15415556820,E,LoyalHighValue,ECOM-10006,,,,1759.96,,,Climbing|Camp Kitchen
+P014,Alexandra,Tanaka,alexandra.tanaka@example.org,+15095552169,CE,Browser,ECOM-10007,,,,0,,,Sleeping Bags|Climbing
+P015,Chloe,Reyes,chloe.reyes@example.org,+18015553677,EL,Casual,ECOM-10008,LOY-50009,name+phone,Khloe,1497.04,Summit,,Trail Running|Sleeping Bags
+P016,Kimberly,Zimmerman,kimberly.zimmerman@example.org,+15095554598,C,StoreOnly,,,,,0,,,Backpacks|Jackets
+P017,Owen,Underwood,owen.underwood@example.com,+13035556168,CEL,HighValueAtRisk,ECOM-10009,LOY-50010,email,Owen,1810.73,Summit,,Backpacks|Climbing
+P018,Olivia,Ramirez,olivia.ramirez@example.com,+19705556155,CE,Casual,ECOM-10010,,,,738.35,,,Jackets|Camp Kitchen
+P019,Alexandra,Sullivan,alexandra.sullivan@example.com,+14065553340,CE,Casual,ECOM-10011,,,,381.33,,,Trail Running|Footwear
+P020,Nicholas,Iverson,nicholas.iverson@example.org,+15095559830,EL,Casual,ECOM-10012,LOY-50011,email,Nicholas,594.31,Trailblazer,,Footwear|Camp Kitchen
+P021,Nicholas,Coleman,nicholas.coleman@example.com,+17755556930,CEL,LoyalHighValue,ECOM-10013,LOY-50012,email,Nicholas,1815.06,Summit,,Sleeping Bags|Backpacks
+P022,Liam,Hartley,liam.hartley@example.com,+13035553504,CL,StoreOnly,,LOY-50013,email,Liam,0,Base Camp,,Tents|Footwear
+P023,Harper,Kowalski,harper.kowalski@example.org,+12085557304,CE,Casual,ECOM-10014,,,,1613.04,,,Sleeping Bags|Camp Kitchen
+P024,James,Ortega,james.ortega@example.org,+14065551188,C,StoreOnly,,,,,0,,,Backpacks|Camp Kitchen
+P025,Owen,Bishop,owen.bishop@example.org,+19705555371,EL,HighValueAtRisk,ECOM-10015,LOY-50014,email,Owen,2050.77,Summit,,Tents|Trail Running
+P026,Mateo,Sullivan,mateo.sullivan@example.com,+15415558123,CE,Browser,ECOM-10016,,,,0,,,Footwear|Backpacks
+P027,Matthew,Fletcher,matthew.fletcher@example.org,+19705555315,L,StoreOnly,,LOY-50015,email,Matthew,0,Base Camp,,Tents|Climbing
+P028,Liam,Draper,liam.draper@example.org,+18015555889,CL,StoreOnly,,LOY-50016,email,Liam,0,Base Camp,,Climbing|Sleeping Bags
+P029,Tariq,Reyes,tariq.reyes@example.org,+13075553504,E,LoyalHighValue,ECOM-10017,,,,2537.0,,,Tents|Footwear
+P030,Natalie,Draper,natalie.draper@example.org,+18015556310,L,StoreOnly,,LOY-50017,email,Natalie,0,Base Camp,,Tents|Backpacks
+P031,Noah,Brooks,noah.brooks@example.com,+17205554923,E,Casual,ECOM-10018,,,,1536.29,,,Climbing|Sleeping Bags
+P032,Elizabeth,Patel,elizabeth.patel@example.com,+15055558962,L,StoreOnly,,LOY-50018,email,Elizabeth,0,Base Camp,,Backpacks|Camp Kitchen
+P033,Ingrid,Ellison,ingrid.ellison@example.com,+19285558787,E,LoyalHighValue,ECOM-10019,,,,1710.28,,,Backpacks|Camp Kitchen
+P034,Ethan,Kowalski,ethan.kowalski@example.org,+15095557932,C,StoreOnly,,,,,0,,,Tents|Backpacks
+P035,Alexandra,Rossi,alexandra.rossi@example.org,+19285556107,C,StoreOnly,,,,,0,,,Climbing|Backpacks
+P036,Olivia,Tanaka,olivia.tanaka@example.com,+19715558397,C,StoreOnly,,,,,0,,,Trail Running|Backpacks
+P037,Margaret,Patel,margaret.patel@example.com,+14255551344,CE,Casual,ECOM-10020,,,,1084.88,,,Tents|Camp Kitchen
+P038,Lucas,Lindqvist,lucas.lindqvist@example.org,+12065551117,E,Casual,ECOM-10021,,,,846.28,,,Trail Running|Footwear
+P039,Michael,Abbott,michael.abbott@example.com,+13035551514,E,Browser,ECOM-10022,,,,205.08,,,Jackets|Camp Kitchen
+P040,Stephanie,Ellison,stephanie.ellison@example.com,+13075558953,CE,Browser,ECOM-10023,,,,0,,,Backpacks|Jackets
+P041,Alexandra,Keller,alexandra.keller@example.org,+14355554981,CEL,Browser,ECOM-10024,LOY-50019,email,Alexandra,585.45,Trailblazer,,Backpacks|Climbing
+P042,Aiko,Gallagher,aiko.gallagher@example.com,+15035552588,CEL,HighValueAtRisk,ECOM-10025,LOY-50020,name+phone,Aiko,2359.23,Summit,,Tents|Trail Running
+P043,Aria,Delgado,aria.delgado@example.com,+15415558651,EL,Browser,ECOM-10026,LOY-50021,email,Aria,0,Trailblazer,,Sleeping Bags|Trail Running
+P044,Priya,Dawson,priya.dawson@example.com,+17205556559,CE,HighValueAtRisk,ECOM-10027,,,,2050.5,,,Climbing|Backpacks
+P045,Ravi,Mercer,ravi.mercer@example.com,+13035554116,CEL,HighValueAtRisk,ECOM-10028,LOY-50022,name+phone,Ravi,1913.98,Summit,,Jackets|Sleeping Bags
+P046,Mia,Erikson,mia.erikson@example.com,+18015555563,C,StoreOnly,,,,,0,,,Trail Running|Sleeping Bags
+P047,Kimberly,Patel,kimberly.patel@example.com,+19705552604,EL,Browser,ECOM-10029,LOY-50023,email,Kimberly,466.86,Base Camp,,Trail Running|Tents
+P048,Elizabeth,Sullivan,elizabeth.sullivan@example.com,+19285554872,L,StoreOnly,,LOY-50024,email,Elizabeth,0,Trailblazer,,Jackets|Backpacks
+P049,Matthew,Chandler,matthew.chandler@example.com,+14065557570,EL,LoyalHighValue,ECOM-10030,LOY-50025,name+phone,Mathew,2015.58,Summit,,Backpacks|Camp Kitchen
+P050,Elizabeth,Kowalski,elizabeth.kowalski@example.com,+15415555345,CEL,LoyalHighValue,ECOM-10031,LOY-50026,email,Elizabeth,1958.84,Summit,,Backpacks|Jackets
+P051,Aiko,Foster,aiko.foster@example.com,+14065558973,EL,Browser,ECOM-10032,LOY-50027,name+phone,Aiko,0,Base Camp,,Backpacks|Trail Running
+P052,Rebecca,Moreno,rebecca.moreno@example.com,+12065559883,L,StoreOnly,,LOY-50028,email,Rebecca,0,Base Camp,,Backpacks|Footwear
+P053,Elizabeth,Coleman,elizabeth.coleman@example.com,+12065558811,CE,Browser,ECOM-10033,,,,198.85,,,Backpacks|Trail Running
+P054,Liam,Price,liam.price@example.com,+19285559320,CEL,LoyalHighValue,ECOM-10034,LOY-50029,email,Liam,2246.3,Summit,,Sleeping Bags|Backpacks
+P055,Jennifer,Lopez,jennifer.lopez@example.com,+18015554853,CL,StoreOnly,,LOY-50030,name+phone,Jennifer,0,Base Camp,,Backpacks|Climbing
+P056,Olivia,Hughes,olivia.hughes@example.com,+15055552343,CE,Casual,ECOM-10035,,,,676.22,,,Tents|Climbing
+P057,Jonathan,Tanaka,jonathan.tanaka@example.org,+17755555272,L,StoreOnly,,LOY-50031,email,Jonathan,0,Base Camp,,Tents|Footwear
+P058,Caleb,Underwood,caleb.underwood@example.com,+14255553144,CE,Browser,ECOM-10036,,,,319.56,,,Jackets|Footwear
+P059,Aria,Sullivan,aria.sullivan@example.com,+14255552188,EL,LoyalHighValue,ECOM-10037,LOY-50032,name+phone,Aria,1798.38,Summit,,Camp Kitchen|Footwear
+P060,William,Fletcher,william.fletcher@example.org,+15305552200,E,HighValueAtRisk,ECOM-10038,,,,1941.8,,,Climbing|Jackets
+P061,Mia,Nakamura,mia.nakamura@example.com,+13075556718,E,Casual,ECOM-10039,,,,596.71,,,Footwear|Sleeping Bags
+P062,Michael,Nguyen,michael.nguyen@example.com,+14255553584,CEL,Browser,ECOM-10040,LOY-50033,name+phone,Michael,0,Trailblazer,,Footwear|Camp Kitchen
+P063,Timothy,Kim,timothy.kim@example.org,+19285559666,CEL,HighValueAtRisk,ECOM-10041,LOY-50034,email,Timothy,1800.99,Summit,,Tents|Trail Running
+P064,William,Tanaka,william.tanaka@example.com,+15055553200,CE,Browser,ECOM-10042,,,,242.24,,,Trail Running|Backpacks
+P065,Nicholas,Hughes,nicholas.hughes@example.org,+19705553546,E,Casual,ECOM-10043,,,,545.78,,,Camp Kitchen|Backpacks
+P066,Patricia,Sorensen,patricia.sorensen@example.com,+15305554335,CEL,Casual,ECOM-10044,LOY-50035,email,Patricia,988.36,Trailblazer,,Jackets|Tents
+P067,Owen,Reyes,owen.reyes@example.org,+14255555114,L,StoreOnly,,LOY-50036,email,Owen,0,Base Camp,,Climbing|Jackets
+P068,Elizabeth,Fischer,elizabeth.fischer@example.com,+12085551058,CEL,HighValueAtRisk,ECOM-10045,LOY-50037,email,Elizabeth,2658.5,Summit,,Camp Kitchen|Jackets
+P069,Stephanie,Everett,stephanie.everett@example.org,+14355553647,E,LoyalHighValue,ECOM-10046,,,,2012.65,,,Camp Kitchen|Jackets
+P070,Diego,Erikson,diego.erikson@example.org,+15055551158,CE,HighValueAtRisk,ECOM-10047,,,,1839.27,,,Trail Running|Climbing
+P071,Margaret,Ellison,margaret.ellison@example.org,+18015557049,CEL,HighValueAtRisk,ECOM-10048,LOY-50038,email,Margaret,2293.95,Summit,,Jackets|Camp Kitchen
+P072,Rebecca,Delgado,rebecca.delgado@example.com,+14355556974,EL,HighValueAtRisk,ECOM-10049,LOY-50039,email,Rebecca,1843.94,Summit,,Footwear|Climbing
+P073,Aiko,Weber,aiko.weber@example.com,+13035555088,C,StoreOnly,,,,,0,,,Footwear|Tents
+P074,Aria,Garcia,aria.garcia@example.org,+15415553532,E,LoyalHighValue,ECOM-10050,,,,1744.5,,,Footwear|Tents
+P075,Victoria,Mercer,victoria.mercer@example.com,+14355551406,CL,StoreOnly,,LOY-50040,email,Victoria,0,Base Camp,,Footwear|Trail Running
+P076,Samantha,Coleman,samantha.coleman@example.com,+19715555065,C,StoreOnly,,,,,0,,,Backpacks|Jackets
+P077,Patricia,Kowalski,patricia.kowalski@example.com,+13035558711,CEL,Casual,ECOM-10051,LOY-50041,email,Patricia,559.1,Trailblazer,,Camp Kitchen|Backpacks
+P078,Anthony,Moreno,anthony.moreno@example.com,+14065554728,L,StoreOnly,,LOY-50042,email,Anthony,0,Base Camp,,Jackets|Trail Running
+P079,Anthony,Brooks,anthony.brooks@example.com,+14355555564,CEL,Casual,ECOM-10052,LOY-50043,email,Anthony,1117.68,Summit,,Jackets|Sleeping Bags
+P080,Michael,Torres,michael.torres@example.com,+15095559346,CEL,Browser,ECOM-10053,LOY-50044,email,Michael,484.84,Trailblazer,,Jackets|Backpacks
+P081,Olivia,Vaughn,olivia.vaughn@example.com,+19285552889,CE,LoyalHighValue,ECOM-10054,,,,1913.36,,,Climbing|Footwear
+P082,Nicholas,Larsen,nicholas.larsen@example.com,+17755552776,C,StoreOnly,,,,,0,,,Jackets|Sleeping Bags
+P083,Chloe,Delgado,chloe.delgado@example.org,+15415558149,CE,Browser,ECOM-10055,,,,773.85,,,Tents|Climbing
+P084,Chloe,Weber,chloe.weber@example.com,+13075554114,E,Casual,ECOM-10056,,,,1431.86,,,Backpacks|Tents
+P085,Nicholas,Carter,nicholas.carter@example.com,+12085556967,CEL,HighValueAtRisk,ECOM-10057,LOY-50045,email,Nicholas,1886.41,Summit,,Trail Running|Footwear
+P086,Abigail,Ellison,abigail.ellison@example.org,+15415553041,C,StoreOnly,,,,,0,,,Tents|Sleeping Bags
+P087,Priya,Okafor,priya.okafor@example.org,+14255557691,CEL,Casual,ECOM-10058,LOY-50046,email,Priya,494.23,Trailblazer,,Tents|Camp Kitchen
+P088,Thomas,Bennett,thomas.bennett@example.org,+12065554143,CE,Casual,ECOM-10059,,,,241.05,,,Climbing|Backpacks
+P089,James,Vaughn,james.vaughn@example.org,+14355557653,CL,StoreOnly,,LOY-50047,email,James,0,Base Camp,,Trail Running|Backpacks
+P090,Ethan,Kim,ethan.kim@example.com,+17205554443,CEL,Casual,ECOM-10060,LOY-50048,email,Ethan,227.7,Trailblazer,,Jackets|Trail Running
+P091,Abigail,Foster,abigail.foster@example.org,+17755558618,EL,Casual,ECOM-10061,LOY-50049,email,Abigail,347.97,Base Camp,,Backpacks|Footwear
+P092,Timothy,Erikson,timothy.erikson@example.org,+14355553780,CEL,Browser,ECOM-10062,LOY-50050,email,Timothy,0,Base Camp,,Tents|Backpacks
+P093,Aria,Fischer,aria.fischer@example.org,+15095556491,E,Casual,ECOM-10063,,,,1033.96,,,Jackets|Climbing
+P094,Jennifer,Holloway,jennifer.holloway@example.org,+14255554680,CE,Browser,ECOM-10064,,,,337.07,,,Footwear|Sleeping Bags
+P095,Ravi,Moreno,ravi.moreno@example.com,+18015555011,E,Browser,ECOM-10065,,,,153.44,,,Trail Running|Camp Kitchen
+P096,Emma,Pearson,emma.pearson@example.com,+17205554185,E,Casual,ECOM-10066,,,,1066.75,,,Footwear|Climbing
+P097,Caleb,Walsh,caleb.walsh@example.com,+15415554997,EL,LoyalHighValue,ECOM-10067,LOY-50051,email,Caleb,1706.43,Summit,,Trail Running|Jackets
+P098,Rebecca,Sullivan,rebecca.sullivan@example.com,+17205554585,EL,Browser,ECOM-10068,LOY-50052,name+phone,Rebecca,0,Base Camp,,Backpacks|Sleeping Bags
+P099,Samantha,Griffin,samantha.griffin@example.com,+19285555082,CEL,HighValueAtRisk,ECOM-10069,LOY-50053,name+phone,Samantha,2044.52,Summit,,Tents|Footwear
+P100,Margaret,Fletcher,margaret.fletcher@example.com,+14355558251,EL,Browser,ECOM-10070,LOY-50054,name+phone,Maggie,345.78,Base Camp,,Climbing|Trail Running
+P101,Mason,Holloway,mason.holloway@example.com,+13075553607,E,Casual,ECOM-10071,,,,759.07,,,Backpacks|Camp Kitchen
+P102,Diego,Mercer,diego.mercer@example.com,+14065555050,CEL,Casual,ECOM-10072,LOY-50055,name+phone,Diego,539.43,Trailblazer,,Climbing|Footwear
+P103,Patricia,Everett,patricia.everett@example.com,+19285555499,L,StoreOnly,,LOY-50056,email,Patricia,0,Base Camp,,Backpacks|Climbing
+P104,Timothy,Ellison,timothy.ellison@example.com,+14255556502,CEL,Browser,ECOM-10073,LOY-50057,name+phone,Tim,0,Base Camp,,Jackets|Footwear
+P105,Thomas,Okafor,thomas.okafor@example.com,+19285553471,EL,LoyalHighValue,ECOM-10074,LOY-50058,email,Thomas,2096.1,Summit,,Tents|Sleeping Bags
+P106,Anthony,Zimmerman,anthony.zimmerman@example.org,+18015552052,L,StoreOnly,,LOY-50059,name+phone,Tony,0,Base Camp,,Footwear|Jackets
+P107,Jonathan,Chandler,jonathan.chandler@example.org,+15415557812,CL,StoreOnly,,LOY-50060,email,Jonathan,0,Base Camp,,Footwear|Camp Kitchen
+P108,Elizabeth,Nakamura,elizabeth.nakamura@example.com,+19715551320,CEL,LoyalHighValue,ECOM-10075,LOY-50061,email,Elizabeth,1911.39,Summit,,Footwear|Backpacks
+P109,Hana,McAllister,hana.mcallister@example.com,+15035556763,EL,LoyalHighValue,ECOM-10076,LOY-50062,name+phone,Hana,1915.63,Summit,,Backpacks|Climbing
+P110,Jessica,Draper,jessica.draper@example.com,+19715559947,L,StoreOnly,,LOY-50063,name+phone,Jessica,0,Trailblazer,,Camp Kitchen|Footwear
+P111,Ravi,Ortega,ravi.ortega@example.com,+12065555471,L,StoreOnly,,LOY-50064,email,Ravi,0,Base Camp,,Jackets|Camp Kitchen
+P112,Abigail,Hartley,abigail.hartley@example.com,+17205557624,CEL,HighValueAtRisk,ECOM-10077,LOY-50065,email,Abigail,1734.98,Summit,,Camp Kitchen|Footwear
+P113,Priya,Kowalski,priya.kowalski@example.com,+14065557455,CEL,Casual,ECOM-10078,LOY-50066,email,Priya,403.95,Base Camp,,Jackets|Footwear
+P114,Lucas,McAllister,lucas.mcallister@example.com,+19705558022,EL,Casual,ECOM-10079,LOY-50067,name+phone,Lucas,386.52,Trailblazer,,Climbing|Backpacks
+P115,Daniel,Mercer,daniel.mercer@example.com,+14065555262,CEL,HighValueAtRisk,ECOM-10080,LOY-50068,name+phone,Daniel,1750.52,Summit,,Footwear|Trail Running
+P116,James,Underwood,james.underwood@example.com,+14355556529,C,StoreOnly,,,,,0,,,Trail Running|Camp Kitchen
+P117,Hana,Nguyen,hana.nguyen@example.com,+15415555133,CE,LoyalHighValue,ECOM-10081,,,,1818.4,,,Climbing|Backpacks
+P118,Tariq,Fischer,tariq.fischer@example.com,+14065556733,L,StoreOnly,,LOY-50069,name+phone,Tariq,0,Base Camp,,Camp Kitchen|Backpacks
+P119,Anthony,Sullivan,anthony.sullivan@example.org,+13035551508,C,StoreOnly,,,,,0,,,Climbing|Backpacks
+P120,Victoria,Moreno,victoria.moreno@example.org,+13035554908,CE,Casual,ECOM-10082,,,,365.86,,,Trail Running|Footwear
+P121,Daniel,Gallagher,daniel.gallagher@example.org,+13035558619,EL,Casual,ECOM-10083,LOY-50070,email,Daniel,2253.1,Summit,,Tents|Jackets
+P122,Maya,Quinn,maya.quinn@example.com,+19715552876,CEL,HighValueAtRisk,ECOM-10084,LOY-50071,email,Maya,3067.9,Summit,,Footwear|Tents
+P123,Mateo,Holloway,mateo.holloway@example.com,+18015551420,CEL,Browser,ECOM-10085,LOY-50072,email,Mateo,0,Base Camp,,Trail Running|Tents
+P124,Jessica,McAllister,jessica.mcallister@example.com,+19715554249,CEL,HighValueAtRisk,ECOM-10086,LOY-50073,name+phone,Jess,1998.06,Summit,,Backpacks|Tents
+P125,Michael,Novak,michael.novak@example.com,+15095555941,CE,Casual,ECOM-10087,,,,686.29,,,Footwear|Climbing
+P126,Owen,Ortega,owen.ortega@example.org,+13035556688,EL,Casual,ECOM-10088,LOY-50074,name+phone,Owen,372.92,Base Camp,,Sleeping Bags|Footwear
+P127,Mia,Delgado,mia.delgado@example.com,+19715556590,CEL,HighValueAtRisk,ECOM-10089,LOY-50075,name+phone,Mia,2188.07,Summit,,Sleeping Bags|Jackets
+P128,William,Lopez,william.lopez@example.com,+15035558102,E,Casual,ECOM-10090,,,,1037.7,,,Tents|Sleeping Bags
+P129,Natalie,Reyes,natalie.reyes@example.org,+14065558135,CEL,Casual,ECOM-10091,LOY-50076,name+phone,Natalie,187.46,Base Camp,,Camp Kitchen|Tents
+P130,Samantha,Bishop,samantha.bishop@example.org,+19285559817,CEL,Browser,ECOM-10092,LOY-50077,email,Samantha,351.36,Base Camp,,Climbing|Tents
+P131,Mateo,Gallagher,mateo.gallagher@example.com,+14065556280,EL,Browser,ECOM-10093,LOY-50078,name+phone,Mateo,0,Trailblazer,,Trail Running|Footwear
+P132,Victoria,Kim,victoria.kim@example.com,+17205554995,CEL,Browser,ECOM-10094,LOY-50079,name+phone,Vicky,0,Base Camp,,Footwear|Climbing
+P133,Hana,Fletcher,hana.fletcher@example.org,+15055556511,EL,Casual,ECOM-10095,LOY-50080,email,Hana,1268.67,Summit,,Backpacks|Tents
+P134,Katherine,Hartley,katherine.hartley@example.com,+14255554475,CE,Casual,ECOM-10096,,,,670.19,,,Climbing|Camp Kitchen
+P135,Andrew,Griffin,andrew.griffin@example.com,+14255555526,CEL,HighValueAtRisk,ECOM-10097,LOY-50081,name+phone,Andy,2406.48,Summit,,Footwear|Jackets
+P136,Ethan,Anderson,ethan.anderson@example.com,+19285554954,CEL,LoyalHighValue,ECOM-10098,LOY-50082,name+phone,Ethan,2075.14,Summit,,Trail Running|Jackets
+P137,Priya,Chandler,priya.chandler@example.org,+14065558800,CEL,Browser,ECOM-10099,LOY-50083,name+phone,Priya,179.53,Base Camp,,Backpacks|Trail Running
+P138,Logan,Abbott,logan.abbott@example.com,+14065552524,E,Casual,ECOM-10100,,,,481.77,,,Climbing|Footwear
+P139,Benjamin,Olsen,benjamin.olsen@example.org,+15035556016,CEL,Browser,ECOM-10101,LOY-50084,name+phone,Ben,203.11,Base Camp,,Footwear|Jackets
+P140,Aria,Novak,aria.novak@example.com,+19715559698,CE,HighValueAtRisk,ECOM-10102,,,,2035.63,,,Camp Kitchen|Climbing
+P141,Andrew,Delgado,andrew.delgado@example.com,+15055558434,EL,Casual,ECOM-10103,LOY-50085,email,Andrew,931.63,Trailblazer,,Camp Kitchen|Tents
+P142,Patricia,Thompson,patricia.thompson@example.com,+12065554155,CE,Casual,ECOM-10104,,,,652.49,,,Camp Kitchen|Jackets
+P143,Thomas,Hughes,thomas.hughes@example.org,+19285554138,E,LoyalHighValue,ECOM-10105,,,,1697.68,,,Sleeping Bags|Camp Kitchen
+P144,Alexandra,Coleman,alexandra.coleman@example.com,+14065552647,L,StoreOnly,,LOY-50086,email,Alexandra,0,Base Camp,,Tents|Jackets
+P145,Tariq,Moreno,tariq.moreno@example.com,+14255553939,CEL,Browser,ECOM-10106,LOY-50087,email,Tariq,0,Base Camp,,Climbing|Camp Kitchen
+P146,Jessica,Anderson,jessica.anderson@example.com,+19285551745,L,StoreOnly,,LOY-50088,email,Jessica,0,Base Camp,,Camp Kitchen|Footwear
+P147,Elizabeth,Lindqvist,elizabeth.lindqvist@example.org,+12065559042,E,LoyalHighValue,ECOM-10107,,,,2079.99,,,Climbing|Tents
+P148,Christopher,Mercer,christopher.mercer@example.org,+17205558690,CE,Casual,ECOM-10108,,,,56.81,,,Backpacks|Trail Running
+P149,Emma,Erikson,emma.erikson@example.com,+15035555136,EL,Browser,ECOM-10109,LOY-50089,name+phone,Emma,162.27,Base Camp,,Trail Running|Backpacks
+P150,Emma,Hughes,emma.hughes@example.com,+17205552213,CEL,HighValueAtRisk,ECOM-10110,LOY-50090,email,Emma,2090.06,Summit,,Climbing|Jackets
+P151,Sofia,Reyes,sofia.reyes@example.com,+13035555978,E,Casual,ECOM-10111,,,,534.88,,,Footwear|Trail Running
+P152,Jennifer,Patel,jennifer.patel@example.org,+17205554697,CE,LoyalHighValue,ECOM-10112,,,,1743.07,,,Footwear|Backpacks
+P153,Mateo,Jacobs,mateo.jacobs@example.com,+15415555871,C,StoreOnly,,,,,0,,,Climbing|Sleeping Bags
+P154,Lucas,Delgado,lucas.delgado@example.org,+15095551986,EL,LoyalHighValue,ECOM-10113,LOY-50091,name+phone,Lucas,1632.75,Summit,,Trail Running|Jackets
+P155,Mason,Torres,mason.torres@example.com,+19705554457,C,StoreOnly,,,,,0,,,Jackets|Trail Running
+P156,Nicholas,Tanaka,nicholas.tanaka@example.com,+13035553847,L,StoreOnly,,LOY-50092,name+phone,Nicolas,0,Base Camp,,Climbing|Tents
+P157,Ethan,Ellison,ethan.ellison@example.com,+14355558381,CE,LoyalHighValue,ECOM-10114,,,,1789.48,,,Backpacks|Jackets
+P158,Maya,Ortega,maya.ortega@example.com,+14065554792,CEL,Casual,ECOM-10115,LOY-50093,email,Maya,450.79,Trailblazer,,Backpacks|Jackets
+P159,Benjamin,Abbott,benjamin.abbott@example.org,+14255552166,CL,StoreOnly,,LOY-50094,email,Benjamin,0,Base Camp,,Camp Kitchen|Jackets
+P160,Owen,Olsen,owen.olsen@example.org,+15095554241,EL,Casual,ECOM-10116,LOY-50095,name+phone,Owen,935.15,Trailblazer,,Trail Running|Sleeping Bags
+P161,Abigail,Hughes,abigail.hughes@example.com,+19285555352,CE,Browser,ECOM-10117,,,,769.37,,,Trail Running|Jackets
+P162,Ingrid,Jensen,ingrid.jensen@example.com,+13035556039,CE,Casual,ECOM-10118,,,,1082.39,,,Tents|Camp Kitchen
+P163,Chloe,Coleman,chloe.coleman@example.com,+15055553037,CL,StoreOnly,,LOY-50096,name+phone,Chloe,0,Base Camp,,Jackets|Camp Kitchen
+P164,Kimberly,Walsh,kimberly.walsh@example.org,+14255555460,CE,Browser,ECOM-10119,,,,364.77,,,Footwear|Sleeping Bags
+P165,Liam,Keller,liam.keller@example.com,+14065551653,EL,Browser,ECOM-10120,LOY-50097,name+phone,Liam,0,Trailblazer,,Backpacks|Jackets
+P166,Abigail,Coleman,abigail.coleman@example.org,+14255551423,L,StoreOnly,,LOY-50098,email,Abigail,0,Base Camp,,Jackets|Camp Kitchen
+P167,Jennifer,Olsen,jennifer.olsen@example.org,+15055555415,CE,LoyalHighValue,ECOM-10121,,,,1752.48,,,Backpacks|Camp Kitchen
+P168,Sofia,Carter,sofia.carter@example.com,+14355555557,E,LoyalHighValue,ECOM-10122,,,,2284.47,,,Backpacks|Sleeping Bags
+P169,Samantha,Novak,samantha.novak@example.org,+12085552494,EL,Browser,ECOM-10123,LOY-50099,name+phone,Samantha,128.77,Base Camp,,Camp Kitchen|Footwear
+P170,Emma,Whitaker,emma.whitaker@example.com,+15415552713,EL,LoyalHighValue,ECOM-10124,LOY-50100,email,Emma,1693.7,Summit,,Climbing|Footwear
+P171,Matthew,Vasquez,matthew.vasquez@example.org,+15415555722,CEL,Browser,ECOM-10125,LOY-50101,name+phone,Matthew,0,Base Camp,,Climbing|Camp Kitchen
+P172,Aria,Schmidt,aria.schmidt@example.org,+15035558451,CEL,Casual,ECOM-10126,LOY-50102,name+phone,Aria,1772.94,Summit,,Tents|Trail Running
+P173,Jennifer,Underwood,jennifer.underwood@example.com,+12065557622,C,StoreOnly,,,,,0,,,Jackets|Sleeping Bags
+P174,Liam,Holloway,liam.holloway@example.org,+19705558569,CE,Casual,ECOM-10127,,,,753.14,,,Sleeping Bags|Climbing
+P175,Jonathan,Dawson,jonathan.dawson@example.org,+14355559167,CL,StoreOnly,,LOY-50103,email,Jonathan,0,Base Camp,,Jackets|Climbing
+P176,Harper,Erikson,harper.erikson@example.com,+17205559998,CEL,Browser,ECOM-10128,LOY-50104,email,Harper,0,Base Camp,,Trail Running|Tents
+P177,Daniel,Rossi,daniel.rossi@example.com,+15095558941,E,HighValueAtRisk,ECOM-10129,,,,2140.9,,,Sleeping Bags|Trail Running
+P178,Margaret,Brooks,margaret.brooks@example.com,+15305556091,E,Casual,ECOM-10130,,,,383.02,,,Climbing|Backpacks
+P179,Ethan,Chandler,ethan.chandler@example.com,+13035558560,CL,StoreOnly,,LOY-50105,email,Ethan,0,Base Camp,,Backpacks|Climbing
+P180,Margaret,Sullivan,margaret.sullivan@example.com,+14355559337,CE,LoyalHighValue,ECOM-10131,,,,1621.75,,,Footwear|Climbing
+P181,Caleb,Ramirez,caleb.ramirez@example.com,+15415554993,E,Casual,ECOM-10132,,,,1136.46,,,Sleeping Bags|Trail Running
+P182,Kimberly,Lindqvist,kimberly.lindqvist@example.com,+18015559327,CL,StoreOnly,,LOY-50106,email,Kimberly,0,Base Camp,,Camp Kitchen|Backpacks
+P183,Diego,Nguyen,diego.nguyen@example.com,+14355557798,CE,HighValueAtRisk,ECOM-10133,,,,1729.7,,,Jackets|Camp Kitchen
+P184,Stephanie,Rossi,stephanie.rossi@example.com,+13075555634,CEL,Casual,ECOM-10134,LOY-50107,name+phone,Stefanie,650.26,Trailblazer,,Footwear|Climbing
+P185,Priya,Thompson,priya.thompson@example.org,+17755553434,C,StoreOnly,,,,,0,,,Climbing|Backpacks
+P186,Timothy,Keller,timothy.keller@example.com,+14065559903,CL,StoreOnly,,LOY-50108,email,Timothy,0,Base Camp,,Climbing|Jackets
+P187,James,Fletcher,james.fletcher@example.com,+15095554912,CE,Casual,ECOM-10135,,,,649.06,,,Sleeping Bags|Tents
+P188,Sofia,Zimmerman,sofia.zimmerman@example.com,+12065556213,L,StoreOnly,,LOY-50109,email,Sofia,0,Base Camp,,Camp Kitchen|Footwear
+P189,Diego,Gallagher,diego.gallagher@example.com,+19715553492,E,Casual,ECOM-10136,,,,1397.8,,,Jackets|Tents
+P190,Noah,Torres,noah.torres@example.com,+19705556439,EL,Casual,ECOM-10137,LOY-50110,email,Noah,831.73,Trailblazer,,Backpacks|Jackets
+P191,Timothy,Garcia,timothy.garcia@example.com,+19285553361,E,Browser,ECOM-10138,,,,108.42,,,Camp Kitchen|Climbing
+P192,Jonathan,Mercer,jonathan.mercer@example.com,+14355555342,CEL,Browser,ECOM-10139,LOY-50111,name+phone,Jonathan,0,Base Camp,,Sleeping Bags|Footwear
+P193,Stephanie,Pearson,stephanie.pearson@example.org,+15035556383,CEL,LoyalHighValue,ECOM-10140,LOY-50112,email,Stephanie,1758.24,Summit,,Jackets|Sleeping Bags
+P194,Owen,Lopez,owen.lopez@example.com,+19285558994,CEL,Browser,ECOM-10141,LOY-50113,email,Owen,0,Base Camp,,Jackets|Climbing
+P195,Mia,Carter,mia.carter@example.com,+15305555708,CEL,LoyalHighValue,ECOM-10142,LOY-50114,email,Mia,1691.57,Summit,,Sleeping Bags|Trail Running
+P196,Alexandra,Olsen,alexandra.olsen2@example.org,+12065558110,E,LoyalHighValue,ECOM-10143,,,,1703.3,,P004,Camp Kitchen|Sleeping Bags
+P197,Sofia,Moreno,sofia.moreno@example.org,+19705552646,C,StoreOnly,,,,,0,,P011,Jackets|Camp Kitchen
+P198,Olivia,Ramirez,olivia.ramirez2@example.com,+12085551474,C,StoreOnly,,,,,0,,P018,Tents|Sleeping Bags
+P199,Owen,Bishop,owen.bishop@example.com,+13035555806,CE,HighValueAtRisk,ECOM-10144,,,,2090.18,,P025,Camp Kitchen|Tents
+P200,Elizabeth,Patel,elizabeth.patel2@example.com,+15415553385,E,LoyalHighValue,ECOM-10145,,,,2276.97,,P032,Climbing|Sleeping Bags
